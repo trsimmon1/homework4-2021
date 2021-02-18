@@ -108,7 +108,7 @@ tr:nth-child(even){
 
 /*Req 6f*/
 tr:hover{
-  background-color: rgba(126, 8, 32, 0.25);
+  background-color: rgb(126, 8, 32, 0.25);
 }
 
 /*Req 7*/
@@ -116,6 +116,7 @@ table{
     border: 2px solid #000000;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
 }
 
 thead tr:first-child th:first-child{}
