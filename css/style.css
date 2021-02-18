@@ -99,14 +99,14 @@ td{
 
 /*Req 6d*/
 
-/*Req 6f*/
-tr:hover{
-  background-color: rgba(126, 8, 32, 0.25);
-}
-
 /*Req 6e*/
 tr:nth-child(even){
   background-color: #D1D1D1;
+}
+
+/*Req 6f*/
+tr:hover{
+  background-color: rgba(126, 8, 32, 0.25);
 }
 
 /*Req 7*/
@@ -128,11 +128,11 @@ th.colhead:last-child{
   border-top-right-radius: 10px;
 }
 
-th.rowhead:last-child{
+tr:last-child td:first-child{
   border-bottom-left-radius: 10px;
 }
 
-td.rowhead:last-child{
+tr:last-child td:last-child{
   border-bottom-right-radius: 10px;
 }
 
