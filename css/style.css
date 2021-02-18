@@ -106,7 +106,7 @@ tr:nth-child(even){
 
 /*Req 6f*/
 tbody tr:hover{
-  background: rgba(126, 8, 32, 0.25);
+  background: rgb(126, 8, 32, 0.25);
 }
 
 /*Req 7*/
