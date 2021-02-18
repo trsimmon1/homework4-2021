@@ -105,7 +105,7 @@ tr:nth-child(even){
 }
 
 /*Req 6f*/
-tr:hover{
+tbody tr:hover{
   background-color: rgba(126, 8, 32, 0.25);
 }
 
@@ -128,7 +128,7 @@ th.colhead:last-child{
   border-top-right-radius: 10px;
 }
 
-tr:last-child td:first-child{
+tr:last-child th.rowhead{
   border-bottom-left-radius: 10px;
 }
 
