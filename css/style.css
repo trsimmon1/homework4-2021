@@ -101,7 +101,7 @@ td{
 
 /*Req 6e*/
 tr:nth-child(even){
-  background-color: #D1D1D1;
+  background: #D1D1D1;
 }
 
 /*Req 6f*/
